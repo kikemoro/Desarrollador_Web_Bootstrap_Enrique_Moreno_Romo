@@ -1,0 +1,188 @@
+.container{
+	background-color: black;
+}
+
+.musica-img{
+	background: url(../img/musica.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	min-height: 200px;
+}
+
+.logo-svg{
+	width: 400px;
+	margin: 40px;
+}
+
+.redes-sociales{
+	margin-bottom: 10px;
+	margin-right: 10px;
+	float: right;
+}
+
+.icono-svg{
+	width: 35px;
+	height: 35px;
+}
+
+.nav-row{
+	background-color:rgb(244,121,32);
+	max-height: 450px;
+}
+
+.text{
+	margin: 5px;
+	font-size: 15px;
+	color: white;
+}
+
+
+.cuadrado:hover{
+	background: gray;
+}
+
+.cuadrado{
+	background: rgb(244,121,32);
+	transition-property: background;
+	transition-duration: .4s;
+	transition-timing-function: linear;
+}
+
+.contenido{
+	margin-top: 30px; 
+	min-height: 1500px;
+	background-color: #A7A9AB;
+}
+
+h1{
+	margin-top: 0px;
+	margin-left: 10px;
+	font-size: 10em;
+}
+
+p{
+	padding-left: 10px;
+	margin-right: 10px;
+	font-size: 1em;
+}
+
+.img-muse{
+	width: 100%;
+}
+
+.img-oasis{
+	margin-left: 15px;
+	width: 100%;
+}
+
+.text-oasis{
+	margin-left: 20px;
+}
+
+.user-img{
+	margin-left: 10px;
+	margin-top: 15px;
+	padding-right: 10px;
+	float: left;
+	width: 90px;
+}
+
+.area-de-texto{
+	margin-top: 10px;
+	width: 88%;
+	height: 50px;
+	background: rgba(255,255,255,0.4);
+	border-radius: 4px;
+	border: none;
+}
+
+.buscar-text{
+	margin-left: 20px;
+	margin-top: 35px;
+	background: rgba(255, 255, 255, 0.4);
+	width: 85%;
+	border-radius: 10px;
+	border: .5px solid rgba(0,0,0,0.3);
+}
+
+.ico-buscar{
+	float: left;
+	margin-top: 45px;
+	transform: scale(1.2);
+}
+
+.tabla{
+	width: 96%;
+	margin-top: -1425px;
+}
+
+td{
+	text-align: center;
+	border: solid 1px black;
+	padding-left: 85px;
+	padding-right: 85px;
+	padding-bottom: 20PX;
+	padding-top: 20px;
+}
+
+.t{
+	border: solid 1px rgba(0,0,0,0.05);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+	color: rgb(244,121,32);
+	text-align: center;
+}
+
+.t:hover{
+	color: white;
+	background: rgb(244,121,32);
+}
+
+
+@media (max-width: 1200px){
+	.logo-svg{
+		width: 300px;
+	}
+
+	.icono-svg{
+		width: 30px;
+		height: 30px;
+	}
+
+	.redes-sociales{
+		text-align: center;
+	}
+
+	.musica-img{
+		min-height: 100px;
+	}
+
+	.area-de-texto2{
+	width: 70%;
+	height: 50px;
+	background: rgba(255,255,255,0.4);
+	border-radius: 4px;
+	border: none;
+	}
+
+	.img-oasis{
+	width: 93%;
+	}
+
+	.formulario{
+	display: none;
+	}
+
+	.user-img{
+	margin-top: 5px;
+	padding-right: 10px;
+	float: left;
+	width: 20%;
+	}
+
+	.area-de-texto{
+		width: 77%;
+	}
+}
